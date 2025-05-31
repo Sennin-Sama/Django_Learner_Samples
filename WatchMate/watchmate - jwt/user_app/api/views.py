@@ -4,6 +4,7 @@ from rest_framework.authtoken.models import Token
 from rest_framework import status
 from .serializers import RegistrationSerializer
 from user_app import models
+from rest_framework_simplejwt.tokens import RefreshToken
 
 
 @api_view(['POST'])
